@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css.css">
+	<title> Ποτοποιία Ν. </title>
+    
+</head>
+
+<body>
+          <header>
+    <h1>ΟΥΖΟ ΝΙΚΟΛΑΟΥ</h1>
+  </header>
+  <nav id="navbar">
+    <ul class="menu-list">
+      <li class="logo"><a href="#"><img src="images/logo 3.png" alt="logo"></a></li>
+      <li><a href="#">ΑΡΧΙΚΗ</a></li>
+      <li><a href="#">ΠΡΟΙΟΝΤΑ</a></li>
+      <li><a href="#">ΙΣΤΟΡΙΑ</a></li>
+      <li><a href="#pushhistory">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
+    </ul>
+  </nav>
+  <script>
+    var nav = document.querySelector("#navbar");
+    var NavTop = nav.offsetTop;
+
+    function fixnavbar(){
+      if(window.scrollY >= NavTop){
+        document.body.style.paddingTop = nav.offsetHeight + "px";
+        document.body.classList.add("fixed-nav");
+      }else {
+        document.body.style.paddingTop = 0;
+        document.body.classList.remove("fixed-nav");
+      }
+    }
+    window.addEventListener("scroll", fixnavbar);
+  </script>
+  
+         <div id="body">
+		  <img src="images/home1.jpg" alt="Trulli" width="100%" height="1000vh">
+		 
+		 </div>
+		  
+		 <div id="items">
+		  <div id="iTitle"> ΤΑ&nbsp; ΠΡΟΙΟΝΤΑ&nbsp;  ΜΑΣ
+		  </div>
+		  <div id="gridcontain">
+		    <div class="grid-item">1</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+		  </div>
+		  <div id="pushhistory">
+		  </div>
+		 </div>
+		 
+		 
+		 <div id="history">
+		 
+		     lel
+		 
+		 </div>
+		 
+         
+         <div id="footer">
+            
+			
+			<div id="container">
+			     
+
+                 <div id="fleft">
+				     <h1>ΠΟΤΟΠΟΙΙΑ&nbsp;&nbsp; <span style="color:#4f75e3;">ΝΙΚΟΛΑΟΥ</span></h1> 
+				     <h2>Στοιχεία Επικοινωνίας</h2>
+				   <div id="info">
+					   <ul>
+					      
+						 
+				      	  <a><i id="lol" class="fa fa-phone"><span style="color:ivory;">&nbsp;&nbsp;+30 2261028562 </br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-6980406532</span></i></a>
+						  <a><i id="lol" class="fa fa-map-marker"><span style="color:ivory;">&nbsp;&nbsp;Καραγιαννοπούλου 36<br> &nbsp;&nbsp;&nbsp;&nbsp;Λιβαδειά - Βοιωτία - ΤΚ.32131</span></i></a>
+						  <a><i id="lol" class="fa fa-envelope"><span style="color:ivory;">&nbsp;&nbsp;Potopoiia.Nikolaou@gmail.com</span></i></a>
+			            </ul>
+
+				   </div>
+				 
+				 
+				 
+				     <div class="socials">
+		              <a  href="#"><i class="fa fa-facebook"></i></a>
+		              <a  href="#"><i class="fa fa-twitter"></i></a>
+			          <a  href="#"><i class="fa fa-youtube"></i></a>
+	             	 </div>
+				 </div>
+
+                 <div id="fmid">
+				 <div id="fcontact" >
+           <h2 id="cont"> Επικοινωνία </h2>
+		   <form id="form1">	   
+		     <input placeholder="Ονοματεπώνυμο" type="text"  class="contact-form-txt" />		     
+			 <input type="text" placeholder="Email" class="contact-form-txt" />
+			 <textarea placeholder="Μήνυμα" class="contact-form-txtarea"></textarea> 
+			 <input id="btn1" type="submit" value="Υποβολη" class="contact-form-btn"  />
+		   </form>
+        </div>
+				 </div>
+				 
+				 <div id="fright">
+				 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.179454981579!2d22.876189915194757!3d38.43732367964434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a08eec660f1241%3A0x907a180307bfaca5!2zzprOsc-BzrHOs865zrHOvc69zr_PgM6_z43Ou86_z4UgMzYsIM6bzrXOuc6yzrHOtM65zqwgMzIxIDAw!5e0!3m2!1sel!2sgr!4v1629799534268!5m2!1sel!2sgr" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		
+				 </div>
+
+            </div>
+            <div id="footercr">
+			
+			    <h1 id="cr"> Copyrights @Ποτοποιία-Νικολάου Site Created by Ath.Nikolaou</h1>
+			</div>
+             
+        
+		</div>
+</body>
+</html>
+</!DOCTYPE>
